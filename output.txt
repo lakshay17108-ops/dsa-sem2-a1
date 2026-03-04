@@ -1,0 +1,63 @@
+PS C:\Users\laksh\OneDrive\Desktop\dsa sem 2> & C:/Users/laksh/AppData/Local/Microsoft/WindowsApps/python3.13.exe "c:/Users/laksh/OneDrive/Desktop/dsa sem 2/a1.PY"
+----------PART A: Stack ADT----------
+Current size: 3
+Top element: 30
+Popped: 30
+Size after pop: 2
+Is stack empty? False
+
+----------Fibonacci Recursion Trace using Stack----------
+Fibonacci Result: 5
+Trace (Top to Bottom):
+fib(1)
+fib(0)
+fib(1)
+fib(2)
+fib(3)
+fib(0)
+fib(1)
+fib(2)
+fib(1)
+fib(0)
+fib(1)
+fib(2)
+fib(3)
+fib(4)
+fib(5)
+
+----------PART B: Factorial----------
+factorial(0) = 1
+factorial(1) = 1
+factorial(5) = 120
+factorial(10) = 3628800
+
+----------Fibonacci Comparison----------
+n = 10:
+  Naive Calls: 177
+  Memo Calls:  19
+--------------------
+n = 20:
+  Naive Calls: 21891
+  Memo Calls:  39
+--------------------
+n = 30:
+  Naive Calls: 2692537
+  Memo Calls:  59
+--------------------
+
+----------PART C: Tower of Hanoi (N=3)----------
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+----------PART D: Recursive Binary Search----------
+Search 7 -> Index: 3
+Search 1 -> Index: 0
+Search 13 -> Index: 6
+Search 2 -> Index: -1
+Search in empty array -> -1
+PS C:\Users\laksh\OneDrive\Desktop\dsa sem 2> 
